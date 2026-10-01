@@ -305,9 +305,9 @@ forecast_month = latest_date + pd.DateOffset(months=1)
 MODEL_COMPARISON = pd.DataFrame(
     {
         "Model": ["Gradient Boosting", "Random Forest", "XGBoost"],
-        "MAE": [175.34, 173.96, 165.69],
-        "RMSE": [230.64, 227.48, 218.64],
-        "R² Score": [0.4343, 0.4497, 0.4916],
+        "MAE": [175.34, 173.96, 171.47],
+        "RMSE": [230.64, 227.48, 223.73],
+        "R² Score": [0.4343, 0.4497, 0.4677],
     }
 )
 
